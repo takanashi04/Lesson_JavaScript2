@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>電卓</title>
+  </head>
+
+  <body>
+    <main>
+        <div class="calc-wrapper">
+          <div callspan="4">
+            <input id="result" name="display" value="" disabled />
+          </div>
+        <div class="first-buttons">
+          <button type="submit" value="7" onClick="calcDisplay(this)">7</button>
+          <button type="submit" value="8" onClick="calcDisplay(this)">8</button>
+          <button type="submit" value="9" onClick="calcDisplay(this)">9</button>
+          <button type="submit" value="+" onClick="calcDisplay(this)">+</button>
+        </div>
+        <div class="second-buttons">
+          <button type="submit" value="4" onClick="calcDisplay(this)">4</button>
+          <button type="submit" value="5" onClick="calcDisplay(this)">5</button>
+          <button type="submit" value="6" onClick="calcDisplay(this)">6</button>
+          <button type="submit" onClick="calcDisplay(this)">-</button>
+        </div>
+        <div class="third-buttons">
+          <button type="submit" value="1" onClick="calcDisplay(this)">1</button>
+          <button type="submit" value="2" onClick="calcDisplay(this)">2</button>
+          <button type="submit" value="3" onClick="calcDisplay(this)">3</button>
+          <button type="submit" value="*" onClick="calcDisplay(this)">*</button>
+        </div>
+        <div class="fourth-buttons">
+          <button type="submit" value="0" onClick="calcDisplay(this)">0</button>
+          <button type="submit" value="00" onClick="calcDisplay(this)">00</button>
+          <button type="submit" value="." onClick="calcDisplay(this)">.</button>
+          <button type="submit" value="/" onClick="calcDisplay(this)">/</button>
+        </div>
+        <div class="fifth-buttons">
+          <button type="submit" value="AC" onClick="calcDisplay(this)">AC</button>
+          <button type="submit" value="=" onClick="calcDisplay(this)">=</button>
+        </div>
+      </div>
+  　</main>
+  　
+  　
+    <script src="main.js"></script>
+  </body>
+</html>

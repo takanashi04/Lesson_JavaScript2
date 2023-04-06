@@ -1,0 +1,46 @@
+button {
+  font-size: 20px;
+  padding: 30px;
+  margin: 10px;
+}
+
+.calc-wrapper {
+  border: 1px solid black;
+  width: 380px;
+}
+
+#result {
+  font-size: 40px;
+  background-color: #000;
+  color: white;
+  width: 350px;
+  margin: 0 10px;
+  text-align: right;
+}
+
+.first-buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.second-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fifth-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
