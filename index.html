@@ -2,7 +2,9 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>電卓</title>
   </head>
@@ -11,7 +13,7 @@
     <main>
         <div class="calc-wrapper">
           <div callspan="4">
-            <input id="result" name="display" value="" disabled />
+            <input id="result" value="0" disabled/>
           </div>
         <div class="first-buttons">
           <button type="submit" value="7" onClick="calcDisplay(this)">7</button>
@@ -23,7 +25,7 @@
           <button type="submit" value="4" onClick="calcDisplay(this)">4</button>
           <button type="submit" value="5" onClick="calcDisplay(this)">5</button>
           <button type="submit" value="6" onClick="calcDisplay(this)">6</button>
-          <button type="submit" onClick="calcDisplay(this)">-</button>
+          <button type="submit" value="-" onClick="calcDisplay(this)">-</button>
         </div>
         <div class="third-buttons">
           <button type="submit" value="1" onClick="calcDisplay(this)">1</button>
