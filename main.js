@@ -10,6 +10,8 @@ function calcDisplay(btn) {
   } else {
       if (result.value == 0 ) {
         result.value = btnValue;
+        //2度押すと＋が消える。
+        //足し算ができなくなる
     } else if (result.value.slice(-1) === "+") {
       result.value = result.value.slice(0,1);
     } else {
